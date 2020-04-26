@@ -13,7 +13,7 @@ import argparse
 import re
 
 class BtProxyRequest(proxy.ProxyRequest):
-  request_number = 0
+  request_number      = 0
   download_multiplier = 1
   upload_multiplier   = 7.3
  
